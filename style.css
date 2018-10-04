@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    background: rgba(128, 124, 124, 0.54);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background: url("./img/HACKER_hack_hacking_internet_computer_anarchy_sadic_virus_dark_anonymous_code_binary_2880x1452.jpg");
+    max-width: 1200px;
+}
+
+.caption {
+    float: left;
+    width: 400px;
+    font-family:  Oxygen bold, sans-serif;
+    font-size: 20px;
+}
+
+.navigation {
+    background: white;
+    padding: 20px 100px;
+}
+
+.linkhead {
+    float: right;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px 0 0;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.mobile {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Bahnschrift;
+    margin: 0 0 0 20px;
+}
+
+.page {
+    color: #f6f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.page h1 {
+    padding: 0 0 20px;
+}
+
+.page p {
+    padding: 2px 0;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+                      /* HOLDER 1 */
+
+.holder1 {
+    background: #f0eef2;
+    padding: 25px 100px;
+
+}
+
+.holder1 .aside {
+    font-size: 0;
+}
+
+.aside {
+    margin: 0 auto;
+}
+
+
+.holder1 .col {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.box3 {
+    padding: 0 7px 0;
+}
+
+.box1,
+.box2,
+.box3 {
+    text-align: center;
+}
+
+.box_item {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.lead {
+    text-align: center;
+    color: #3d95ff;
+    font-family: Calibri;
+    font-size: 21px;
+    padding: 5px 0;
+}
+
+.icon {
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+                         /* HOLDER 2 */
+.holder2 {
+    background: #e7e5e9;
+    padding: 25px 100px;
+}
+
+.holder2 h2 {
+    font-family: Calibri;
+    font-size: 35px;
+}
+
+.colleft {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+}
+
+.colright {
+    position: relative;
+    width: 50%;
+    float: right;
+    padding: 2% 0 1% 2%;
+}
+
+.box_up {
+    padding: 10px 0;
+}
+
+.colright img {
+    max-width: 100%;
+}
+
+.layout {
+    position: relative;
+}
+
+.desktop {
+    position: absolute;
+    width: 77%;
+    top: 5%;
+    left: 11.8%
+}
+
+
+.box_bottom {
+    padding: 20px 0;
+}
+
+.box_bottom a {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.colbottom {
+    margin: 0 auto;
+}
+
+.colbottom_box {
+    width:33.33%;
+    background: #fff;
+    float: left;;
+}
+
+.colbottom_box img {
+    width: 100%;
+    height: 200px;
+}
+
+.colbottom_box:last-child {
+    background: #000;
+    color: #fff;
+}
+
+.colbottom_item {
+    text-align: center;
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+.colbottom_item p {
+    font-size: 12px;
+}
+                        /* HOLDER 3 */
+.holder3 {
+    background: #f0eef2;
+    padding: 20px 100px 40px;
+}
+.column {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    padding: 0 15px;
+}
+.column a {
+    text-decoration: none;
+    color: black;
+}
+
+.column_box1 {
+    margin: 20px 0 0 0;
+}
+
+.column_box1_title {
+    float: left;
+    width: 45%;
+    text-transform: uppercase;
+}
+
+.polosa {
+    background: #fff;
+    width: 130px;
+    height: 5px;
+    margin: 10px 0 0 0;
+}
+
+.column_box1_list {
+    float: left;
+    width: 55%;
+    font-family: Calibri;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.stolbik {
+    background: #fff;
+    float: left;
+    width: 2px;
+    height: 10px;
+    margin: 0 10px 0 0;
+}
+
+.img {
+    height:10px;
+    margin: 0 10px 0 20px;
+}
+
+.column_box2_1 {
+    background: url("./img/B99610663Z.1_20171220121121_000_G6N1PP9SR.1-0.jpg");
+}
+
+.column_box2_2 {
+    background: url("./img/mobile_banking_onpage.jpg");    
+}
+
+.column_box2_3 {
+    background: url("./img/maxresdefault.jpg");
+}
+
+.column_box2_1,
+.column_box2_2,
+.column_box2_3 {
+    margin: 30px 0 0 0;
+    height: 170px;
+    position: relative;
+}
+
+.data {
+    background: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+.column_box3 {
+    background: #fff;
+    padding: 10px;
+}
+
+.column_box3 h3 {
+    color: #44a3ff;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.column_box3 p {
+    font-family: Calibri;
+    font-size: 14px;
+}
+                       /*   FOOTER      */
+.footer {
+    max-widtha: 1200px;
+    background: #e1dfe3;
+    padding: 20px 100px 30px;
+    margin: 0 0 30px 0;
+}
+
+.user,
+.all,
+.search {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    width: 33.33%;
+}
+
+.all a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 6px 0;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+button {
+    background: #fff;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-size: 17px;
+}
+
+.search_col1 img {
+    width: 32px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .holder1 .col {
+        width: 50%;
+    }
+
+    .holder3 .column {
+        width: 100%;
+    }
+
+    .column_box1_title{
+
+    }
+
+    .footer .user,
+    .all,
+    .search {
+        width: 100%;
+    }
+
+    .holder2 .colleft,
+    .colright {
+        width: 100%;
+    }
+
+    .colbottom_box {
+        width: 50%;
+    }
+
+    .desktop {
+        width: 77%;
+        top: 5%;
+        left: 11.8%;
+    }
+}
+
+@media (max-width: 480px){
+    .holder1 .col {
+        width: 100%;
+    }
+    .holder3 .column {
+        width: 100%;
+    }
+    .column_box1_title{
+        float: none;
+    }
+
+    .footer .user,
+    .all,
+    .search {
+        width: 100%;
+    }
+    .holder2 .colleft,
+    .colright {
+        width: 100%;
+    }
+    .colbottom_box {
+        width: 100%;
+    }
+
+    .column {
+        padding: 0;
+    }
+
+    .desktop {
+        width: 77%;
+        top: 5%;
+        left: 11.7%;
+    }
+}
+
+    /* CLEARFIX */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
